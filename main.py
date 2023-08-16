@@ -83,7 +83,12 @@ for _ in range(timeout * 10): # Tentará encontrar o elemento 10 vezes por segun
 
 if not script_loaded:
     print("Script não carregado no tempo esperado")
+    
+from etapas_adicionais import executar_etapas_adicionais
+
+executar_etapas_adicionais(driver)
+
 input("Pressione Enter para fechar o navegador...")
 
-# Continue com as ações adicionais...
+
 
