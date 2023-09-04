@@ -47,9 +47,9 @@ botao_continuar.click()
 # Encontre os campos de e-mail e senha usando os IDs fornecidos
 print("Inserindo e-mail e senha...")
 campo_email = wait.until(EC.presence_of_element_located((By.ID, 'email')))
-campo_email.send_keys('allan.silva@mt.senac.br')
+campo_email.send_keys('xxxxxxxxxxxxxx')
 campo_senha = driver.find_element(By.ID, 'senha')
-campo_senha.send_keys('Sudarsenha#2023')
+campo_senha.send_keys('xxxxxxxxxxxx')
 
 # Código anterior ...
 
